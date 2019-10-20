@@ -1,5 +1,17 @@
 {
   "projects": {
     "default": "ricksliu-website"
+  },
+  "targets": {
+    "ricksliu-website": {
+      "hosting": {
+        "ricksliu-website": [
+          "ricksliu-website"
+        ],
+        "ricksliu": [
+          "ricksliu"
+        ]
+      }
+    }
   }
 }
