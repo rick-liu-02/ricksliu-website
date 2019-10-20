@@ -1,10 +1,22 @@
 {
-  "hosting": {
-    "public": "public",
-    "ignore": [
-      "firebase.json",
-      "**/.*",
-      "**/node_modules/**"
-    ]
-  }
+  "hosting": [
+    {
+	  "site": "ricksliu-website",
+      "public": "public",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ]
+    },
+	{
+	  "site": "ricksliu",
+	  "public": "public",
+	  "ignore": [
+		"firebase.json",
+		"**/.*",
+		"**/node_modules/**"
+	  ]
+	}
+  ]
 }
