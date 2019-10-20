@@ -1,9 +1,9 @@
 {
   "hosting": [ {
-	  "site": "ricksliu-website",
-      "public": "public"
+	  "target": "ricksliu-website",
+      "public": "public_redirect"
     }, {
-	  "site": "ricksliu-website",
+	  "target": "ricksliu",
       "public": "public"
     }
   ]
