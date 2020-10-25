@@ -1,1 +1,56 @@
 @import url("main.css");
+
+div#center {
+    position: absolute;
+    top: 33%;
+    margin-bottom: 2em;
+    width: 100%;
+
+    background-color: #3337;
+}
+
+div#title {
+    margin-top: 0.5em;
+
+    text-align: center;
+    font-size: 4em;
+    font-weight: bold;
+
+    color: #FFF;
+}
+
+div#left {
+    float: left;
+    width: 67%;
+}
+
+div#body {
+    margin: 1em 0 1em 1em;
+
+    font-size: 2em;
+    line-height: 2em;
+
+    color: #FFF;
+}
+
+div#right {
+    float: right;
+    width: 33%;
+}
+
+div#photo {
+    margin: 2em 2em 1em;
+}
+
+img#photo {
+    max-width: 100%;
+}
+
+div#caption {
+    margin: 0 2em 2em;
+
+    text-align: center;
+    font-size: 1em;
+
+    color: #FFF;
+}

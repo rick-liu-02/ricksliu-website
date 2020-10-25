@@ -6,6 +6,10 @@ body {
     font: medium Verdana, Tahoma, sans-serif;
 }
 
+a {
+    text-decoration: none;
+}
+
 img#background {
     position: fixed;
     top: -200px;
