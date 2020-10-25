@@ -1,0 +1,15 @@
+@import url("navigation.css");
+
+body {
+    margin: 0%;
+
+    font: medium Verdana, Tahoma, sans-serif;
+}
+
+img#background {
+    position: fixed;
+    top: -200px;
+    left: -100px;
+    width: 2000px;
+    height: 1500px;
+}
