@@ -4,6 +4,7 @@ div#center {
     position: absolute;
     top: 50%;
     width: 100%;
+    margin-bottom: 0;
     transform: translateY(-50%);
 
     background-color: #3337;
