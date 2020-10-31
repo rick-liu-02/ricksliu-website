@@ -6,6 +6,15 @@ body {
     font: medium Verdana, Tahoma, sans-serif;
 }
 
+div#center {
+    position: absolute;
+    top: 33%;
+    margin-bottom: 2em;
+    width: 100%;
+
+    background-color: #3337;
+}
+
 a {
     text-decoration: none;
 }

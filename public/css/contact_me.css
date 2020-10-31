@@ -1,14 +1,5 @@
 @import url("main.css");
 
-div#center {
-    position: absolute;
-    top: 50%;
-    width: 100%;
-    transform: translateY(-50%);
-
-    background-color: #3337;
-}
-
 div#left {
     float: left;
     width: 50%;
