@@ -17,25 +17,25 @@ div#right {
     width: 50%;
 }
 
-.body {
+.heading {
     float: left;
     clear: left;
     padding: 0.5em;
 }
 
-#body_first {
+#heading_first {
     margin-top: 0.5em;
 }
 
-#body_last {
+#heading_last {
     margin-bottom: 0.5em;
 }
 
-a.body:hover {
+a.heading:hover {
     background-color: #111B;
 }
 
-a.body:active {
+a.heading:active {
     background-color: #000 !important;
 }
 

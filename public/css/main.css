@@ -15,14 +15,14 @@ div#content {
     background-color: #3337;
 }
 
-div.title {
+.title {
     font-size: 4em;
     font-weight: bold;
 
     color: #FFF;
 }
 
-div.heading {
+.heading {
     font-size: 2em;
     font-weight: bold;
 
