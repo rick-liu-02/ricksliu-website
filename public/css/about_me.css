@@ -9,10 +9,12 @@ div.title {
 div#left {
     float: left;
     width: 67%;
+    margin-bottom: 2em;
 }
 
 div.body {
-    margin: 1em 0 1em 1em;
+    margin-top: 1em;
+    margin-left: 1em;
 
     line-height: 2em;
 }
@@ -31,7 +33,7 @@ img#photo {
 }
 
 div.caption {
-    margin: 0 2em 2em;
+    margin-bottom: 2em;
 
     text-align: center;
 }
