@@ -1,14 +1,4 @@
-@import url("main.css");
-
-div#center {
-    position: absolute;
-    top: 50%;
-    width: 100%;
-    margin-bottom: 0;
-    transform: translateY(-50%);
-
-    background-color: #3337;
-}
+@import url("main_centered.css");
 
 div#left {
     float: left;
@@ -28,32 +18,20 @@ div#right {
     width: 50%;
 }
 
-div#title {
+div.title {
     margin-top: 0.5em;
-
-    font-size: 4em;
-    font-weight: bold;
-
-    color: #FFF;
 }
 
-div#heading {
+div.heading {
     margin: 1em 0;
     max-width: 18em;
-
-    font-size: 2em;
-    font-weight: bold;
-
-    color: #FFF;
 }
 
-img#linkedin_svg {
+img.icon {
     margin-bottom: 2em;
     height: 2em;
 }
 
-img#github_svg {
-    margin-bottom: 2em;
-    height: 2em;
+img#icon_2 {
     transform: translateX(100%);
 }

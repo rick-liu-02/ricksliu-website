@@ -5,15 +5,11 @@ div#left {
     width: 50%;
 }
 
-div#title {
+div.title {
     float: right;
     margin: 0.5em;
 
     text-align: right;
-    font-size: 4em;
-    font-weight: bold;
-
-    color: #FFF;
 }
 
 div#right {
@@ -25,15 +21,14 @@ div#right {
     float: left;
     clear: left;
     padding: 0.5em;
-    
-    font-size: 2em;
-    font-weight: bold;
-
-    color: #FFF;
 }
 
-img {
-    height: 1em;
+#body_first {
+    margin-top: 0.5em;
+}
+
+#body_last {
+    margin-bottom: 0.5em;
 }
 
 a.body:hover {
@@ -42,4 +37,8 @@ a.body:hover {
 
 a.body:active {
     background-color: #000 !important;
+}
+
+img {
+    height: 1em;
 }

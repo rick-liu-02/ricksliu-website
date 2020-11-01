@@ -1,31 +1,14 @@
-@import url("main.css");
+@import url("main_centered.css");
 
-div#center {
-    position: absolute;
-    top: 50%;
-    width: 100%;
-    margin-bottom: 0;
-    transform: translateY(-50%);
-
-    background-color: #3337;
-}
-
-div#title {
+div.title {
     margin-top: 0.5em;
 
     text-align: center;
-    font-size: 4em;
-    font-weight: bold;
-
-    color: #FFF;
 }
 
-div#body {
-    margin: 1em 0 1em 1em;
+div.body {
+    margin: 1em 0 1em;
 
     text-align: center;
-    font-size: 2em;
     line-height: 2em;
-
-    color: #FFF;
 }

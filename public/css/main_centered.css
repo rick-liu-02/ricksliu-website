@@ -1,0 +1,7 @@
+@import url("main.css");
+
+div#content {
+    top: 50%;
+    margin-bottom: 0;
+    transform: translateY(-50%);
+}

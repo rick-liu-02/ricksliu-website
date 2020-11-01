@@ -1,13 +1,9 @@
 @import url("main.css");
 
-div#title {
+div.title {
     margin-top: 0.5em;
 
     text-align: center;
-    font-size: 4em;
-    font-weight: bold;
-
-    color: #FFF;
 }
 
 div#left {
@@ -15,13 +11,10 @@ div#left {
     width: 67%;
 }
 
-div#body {
+div.body {
     margin: 1em 0 1em 1em;
 
-    font-size: 2em;
     line-height: 2em;
-
-    color: #FFF;
 }
 
 div#right {
@@ -37,11 +30,8 @@ img#photo {
     max-width: 100%;
 }
 
-div#caption {
+div.caption {
     margin: 0 2em 2em;
 
     text-align: center;
-    font-size: 1em;
-
-    color: #FFF;
 }
