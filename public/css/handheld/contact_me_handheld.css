@@ -1,26 +1,15 @@
-@import url("main_centered.css");
-
-div#left {
-    float: left;
-    width: 50%;
-}
+@import url("main_centered_handheld.css");
 
 div.title {
-    float: right;
-    margin: 0.5em;
+    margin-top: 0.5em;
 
-    text-align: right;
-}
-
-div#right {
-    float: right;
-    width: 50%;
+    text-align: center;
 }
 
 .heading {
-    float: left;
-    clear: left;
-    padding: 0.5em;
+    display: block;
+
+    padding: 0.5em 1em 0.5em;
 }
 
 #heading_first {

@@ -1,9 +1,9 @@
-@import url("navigation.css");
+@import url("navigation_handheld.css");
 
 body {
     margin: 0%;
 
-    font: medium Verdana, Tahoma, sans-serif;
+    font: x-small Verdana, Tahoma, sans-serif;
 }
 
 div#content {
@@ -16,27 +16,27 @@ div#content {
 }
 
 .title {
-    font-size: 4em;
+    font-size: 3em;
     font-weight: bold;
 
     color: #FFF;
 }
 
 .heading {
-    font-size: 2em;
+    font-size: 1.5em;
     font-weight: bold;
 
     color: #FFF;
 }
 
 .body {
-    font-size: 2em;
+    font-size: 1.5em;
 
     color: #FFF;
 }
 
 .caption {
-    font-size: 1em;
+    font-size: 1.5em;
 
     color: #FFF;
 }

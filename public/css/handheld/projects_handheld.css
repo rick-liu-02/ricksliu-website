@@ -1,0 +1,7 @@
+@import url("main_handheld.css");
+
+div.title {
+    margin-top: 0.5em;
+
+    text-align: center;
+}

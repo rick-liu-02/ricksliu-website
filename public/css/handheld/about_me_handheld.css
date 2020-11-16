@@ -1,4 +1,4 @@
-@import url("main.css");
+@import url("main_handheld.css");
 
 div.title {
     margin-top: 0.5em;
@@ -6,22 +6,12 @@ div.title {
     text-align: center;
 }
 
-div#left {
-    float: left;
-    width: 67%;
-    margin-bottom: 2em;
-}
-
 div.body {
-    margin-top: 1em;
-    margin-left: 1em;
+    margin: 1em 1em 0em;
 
     line-height: 2em;
-}
 
-div#right {
-    float: right;
-    width: 33%;
+    text-align: center;
 }
 
 div#photo {
