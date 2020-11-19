@@ -14,12 +14,13 @@ div.body {
     text-align: center;
 }
 
-div#photo {
-    margin: 2em 2em 0em;
-}
-
 img#photo {
-    max-width: 100%;
+    display: block;
+    width: 75%;
+
+    margin-top: 2em;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 div.caption {
