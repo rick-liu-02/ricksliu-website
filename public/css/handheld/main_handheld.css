@@ -1,54 +1,22 @@
+@import url("../main.css");
 @import url("navigation_handheld.css");
 
 body {
-    margin: 0%;
-
-    font: x-small Verdana, Tahoma, sans-serif;
-}
-
-div#content {
-    position: absolute;
-    top: 20%;
-    margin-bottom: 2em;
-    width: 100%;
-
-    background-color: #3337;
+    font-size: x-small;
 }
 
 .title {
     font-size: 3em;
-    font-weight: bold;
-
-    color: #FFF;
 }
 
 .heading {
     font-size: 1.5em;
-    font-weight: bold;
-
-    color: #FFF;
 }
 
 .body {
     font-size: 1.5em;
-
-    color: #FFF;
 }
 
 .caption {
     font-size: 1.5em;
-
-    color: #FFF;
-}
-
-a {
-    text-decoration: none;
-}
-
-img#background {
-    position: fixed;
-    top: -200px;
-    left: -100px;
-    width: 2000px;
-    height: 1500px;
 }

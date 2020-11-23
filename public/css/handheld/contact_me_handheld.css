@@ -7,9 +7,11 @@ div.title {
 }
 
 .heading {
-    display: block;
+    float: left;
+    clear: left;
+    padding: 0.5em;
 
-    padding: 0.5em 1em 0.5em;
+    padding: 1em;
 }
 
 #heading_first {
