@@ -21,6 +21,8 @@ div#right {
     float: left;
     clear: left;
     padding: 0.5em;
+
+    word-break: break-all;
 }
 
 #heading_first {
