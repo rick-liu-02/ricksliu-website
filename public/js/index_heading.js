@@ -1,4 +1,4 @@
-var heading = document.getElementById("heading");
+var heading = document.getElementById("main_heading");
 var headingString = heading.textContent;
 var headingAnimationID;
 

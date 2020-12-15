@@ -1,13 +1,13 @@
 @import url("main_centered_handheld.css");
 
-div.title {
+h1 {
     margin-top: 0.5em;
 
     font-size: 2em;
     text-align: center;
 }
 
-div.body {
+p {
     margin: 1em 0 1em;
 
     font-size: 1em;

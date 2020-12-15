@@ -1,46 +1,46 @@
 @import url("main_centered.css");
 
-div#left {
+#left {
     float: left;
     width: 50%;
 }
 
-div.title {
+h1 {
     float: right;
     margin: 0.5em;
 
     text-align: right;
 }
 
-div#right {
+#right {
     float: right;
     width: 50%;
 }
 
-.heading {
+.contact {
     float: left;
     clear: left;
-    padding: 0.5em;
+    padding: 1em;
 
     word-break: break-all;
 }
 
-#heading_first {
-    margin-top: 0.5em;
+#first_contact {
+    margin-top: 1em;
 }
 
-#heading_last {
-    margin-bottom: 0.5em;
+#last_contact {
+    margin-bottom: 1em;
 }
 
-a.heading:hover {
+h2 {
+    display: inline;
+}
+
+a.contact:hover {
     background-color: #111B;
 }
 
-a.heading:active {
+a.contact:active {
     background-color: #000 !important;
-}
-
-img {
-    height: 1em;
 }

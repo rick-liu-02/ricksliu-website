@@ -1,6 +1,6 @@
 @import url("main_handheld.css");
 
-div#content {
+#content {
     top: 50%;
     margin-bottom: 0;
     transform: translateY(-50%);

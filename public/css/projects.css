@@ -1,12 +1,12 @@
 @import url("main.css");
 
-div.title {
+h1 {
     margin-top: 0.5em;
 
     text-align: center;
 }
 
-div.body {
+p {
     margin-top: 1em;
     margin-bottom: 1em;
 

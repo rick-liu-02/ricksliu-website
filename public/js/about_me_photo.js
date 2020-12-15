@@ -1,4 +1,4 @@
-var photo = document.getElementById("photo");
+var photo = document.getElementById("main_photo");
 var photoAnimationID;
 
 photo.style.opacity = 0;

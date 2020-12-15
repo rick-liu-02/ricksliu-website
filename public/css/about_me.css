@@ -1,38 +1,38 @@
 @import url("main.css");
 
-div.title {
+h1 {
     margin-top: 0.5em;
 
     text-align: center;
 }
 
-div#left {
+#left {
     float: left;
     width: 67%;
     margin-bottom: 2em;
 }
 
-div.body {
+p {
     margin-top: 1em;
     margin-left: 1em;
 
     line-height: 2em;
 }
 
-div#right {
+#right {
     float: right;
     width: 33%;
 }
 
-div#photo {
+div#main_photo {
     margin: 2em 2em 0em;
 }
 
-img#photo {
+img#main_photo {
     max-width: 100%;
 }
 
-div.caption {
+h2.caption {
     margin: 1em 2em 2em;
 
     text-align: center;

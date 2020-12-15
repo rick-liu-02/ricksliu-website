@@ -1,35 +1,33 @@
 @import url("main_centered_handheld.css");
 
-div.title {
+h1 {
     margin-top: 0.5em;
 
     text-align: center;
 }
 
-.heading {
+.contact {
     float: left;
     clear: left;
-    padding: 0.5em;
-
-    padding: 1em;
+    padding: 1.5em;
 }
 
-#heading_first {
-    margin-top: 0.5em;
+#first_contact {
+    margin-top: 1em;
 }
 
-#heading_last {
-    margin-bottom: 0.5em;
+#last_contact {
+    margin-bottom: 1em;
 }
 
-a.heading:hover {
+h2 {
+    display: inline;
+}
+
+a.contact:hover {
     background-color: #111B;
 }
 
-a.heading:active {
+a.contact:active {
     background-color: #000 !important;
-}
-
-img {
-    height: 1em;
 }

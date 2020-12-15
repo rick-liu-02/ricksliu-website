@@ -1,29 +1,27 @@
 @import url("main_handheld.css");
 
-div.title {
+h1 {
     margin-top: 0.5em;
 
     text-align: center;
 }
 
-div.body {
+p {
     margin: 1em 1em 0em;
 
     line-height: 2em;
-
     text-align: center;
 }
 
-img#photo {
+img#main_photo {
     display: block;
     width: 75%;
-
     margin-top: 2em;
     margin-left: auto;
     margin-right: auto;
 }
 
-div.caption {
+h2.caption {
     margin: 1em 2em 2em;
 
     text-align: center;

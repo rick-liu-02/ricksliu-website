@@ -1,43 +1,45 @@
 @import url("navigation.css");
+@import url('https://fonts.googleapis.com/css2?family=Coda&display=swap');
 
 body {
     margin: 0%;
 
-    font: medium Verdana, Tahoma, sans-serif;
+    font: medium 'Coda', 'Verdana', 'sans-serif';
 }
 
-div#content {
+#content {
     position: absolute;
     top: 20%;
     margin-bottom: 2em;
     width: 100%;
-
     background-color: #3337;
 }
 
-.title {
+h1 {
+    margin: 0em;
+
     font-size: 4em;
     font-weight: bold;
-
     color: #FFF;
 }
 
-.heading {
-    font-size: 2em;
-    font-weight: bold;
+h2 {
+    margin: 0em;
 
+    font-size: 2em;
+    font-weight: normal;
     color: #FFF;
 }
 
-.body {
-    font-size: 2em;
+p {
+    margin: 0em;
 
+    font-size: 2em;
     color: #FFF;
 }
 
 .caption {
     font-size: 1em;
-
     color: #FFF;
 }
 
@@ -51,4 +53,8 @@ img#background {
     left: -100px;
     width: 2000px;
     height: 1500px;
+}
+
+img.icon {
+    height: 2em;
 }
