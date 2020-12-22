@@ -19,6 +19,7 @@ h1 {
     margin: 0em;
 
     font-size: 4em;
+    line-height: 100%;
     font-weight: bold;
     color: #FFF;
 }
@@ -27,6 +28,7 @@ h2 {
     margin: 0em;
 
     font-size: 2em;
+    line-height: 100%;
     font-weight: normal;
     color: #FFF;
 }
@@ -35,6 +37,7 @@ p {
     margin: 0em;
 
     font-size: 2em;
+    line-height: 100%;
     color: #FFF;
 }
 
@@ -44,6 +47,7 @@ p {
 }
 
 a {
+    line-height: 100%;
     text-decoration: none;
 }
 

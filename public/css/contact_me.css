@@ -18,6 +18,7 @@ h1 {
 }
 
 .contact {
+    height: 2em;
     float: left;
     clear: left;
     padding: 1em;

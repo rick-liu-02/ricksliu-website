@@ -8,7 +8,7 @@
 img#main_photo {
     float: right;
     margin: 2em;
-    height: 18em;
+    height: 16em;
 
     border-radius: 50%;
 }
@@ -23,14 +23,21 @@ h1 {
 }
 
 h2 {
-    margin: 1em 0;
+    margin-top: 1em;
     max-width: 14em;
+
+    line-height: 150%;
 }
 
-img.icon {
-    margin-bottom: 2em;
+#contacts {
+    height: 2em;
+    margin: 2em 0em 2em;
 }
 
-img#last_icon {
-    transform: translateX(100%);
+.contact {
+    margin-right: 2em;
+}
+
+#last_contact {
+    margin-right: 0em;
 }

@@ -7,9 +7,10 @@ h1 {
 }
 
 .contact {
+    height: 2em;
     float: left;
     clear: left;
-    padding: 1.5em;
+    padding: 1em;
 }
 
 #first_contact {
