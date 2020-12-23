@@ -11,8 +11,21 @@ h1 {
 }
 
 .project > div {
-    width: 50%;
     margin-top: 2em;
+}
+
+.project:last-child > div {
+    margin-bottom: 2em;
+}
+
+.info {
+    width: 50%;
+}
+
+.media {
+    width: 50%;
+
+    text-align: center;
 }
 
 .left {
@@ -40,13 +53,12 @@ h2 {
 }
 
 p {
-    margin-top: 1em;
+    margin-top: 0.8em;
+
+    font-size: 1.25em;
+    line-height: 200%;
 }
 
-.showcase {
-    text-align: center;
-}
-
-.showcase img {
+.media img {
     width: 100%;
 }

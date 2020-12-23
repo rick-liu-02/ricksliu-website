@@ -12,7 +12,7 @@ h1 {
 }
 
 p {
-    margin: 1em 0em 1em 1em;
+    margin: 1em 0.5em 1em 1em;
 
     line-height: 200%;
 }
@@ -22,8 +22,8 @@ p {
     width: 33%;
 }
 
-div#main_photo {
-    margin: 2em 2em 0em;
+#right > div {
+    margin: 2em 2em 0em 1em;
 }
 
 img#main_photo {
@@ -31,7 +31,7 @@ img#main_photo {
 }
 
 h2.caption {
-    margin: 1em 2em 2em;
+    margin: 1em 2em 2em 1em;
 
     text-align: center;
 }
