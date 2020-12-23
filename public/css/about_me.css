@@ -27,7 +27,7 @@ div#main_photo {
 }
 
 img#main_photo {
-    max-width: 100%;
+    width: 100%;
 }
 
 h2.caption {

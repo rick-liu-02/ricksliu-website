@@ -10,14 +10,14 @@ h1 {
     height: 2em;
     float: left;
     clear: left;
-    padding: 1em;
+    padding: 1em 2em 1em;
 }
 
-#first_contact {
+.contact:first-child {
     margin-top: 1em;
 }
 
-#last_contact {
+.contact:last-child {
     margin-bottom: 1em;
 }
 

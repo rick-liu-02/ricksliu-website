@@ -7,7 +7,7 @@
 
 h1 {
     float: right;
-    margin: 0.5em;
+    margin: 0.5em 0.25em 0.5em 0.5em;
 
     text-align: right;
 }
@@ -26,11 +26,11 @@ h1 {
     word-break: break-all;
 }
 
-#first_contact {
+.contact:first-child {
     margin-top: 1em;
 }
 
-#last_contact {
+.contact:last-child {
     margin-bottom: 1em;
 }
 

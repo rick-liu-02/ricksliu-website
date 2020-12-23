@@ -6,9 +6,47 @@ h1 {
     text-align: center;
 }
 
+.project {
+    clear: both;
+}
+
+.project > div {
+    width: 50%;
+    margin-top: 2em;
+}
+
+.left {
+    float: left;
+
+    text-align: right;
+}
+
+.right {
+    float: right;
+
+    text-align: left;
+}
+
+.left > div {
+    margin: 0em 1em 0em 2em;
+}
+
+.right > div {
+    margin: 0em 2em 0em 1em;
+}
+
+h2 {
+    font-size: 4em;
+}
+
 p {
     margin-top: 1em;
-    margin-bottom: 1em;
+}
 
+.showcase {
     text-align: center;
+}
+
+.showcase img {
+    width: 100%;
 }
