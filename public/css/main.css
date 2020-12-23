@@ -36,12 +36,12 @@ p {
     margin: 0em;
 
     font-size: 2em;
-    line-height: 100%;
+    line-height: 200%;
     color: #FFF;
 }
 
 .caption {
-    font-size: 1em;
+    font-size: 1.25em;
     color: #FFF;
 }
 

@@ -9,8 +9,6 @@ h1 {
 p {
     margin: 1.6em 1.6em 0em;
 
-    font-size: 1.25em;
-    line-height: 200%;
     text-align: center;
 }
 
@@ -23,7 +21,7 @@ img#main_photo {
 }
 
 h2.caption {
-    margin: 1em 2em 2em;
+    margin: 0.8em 1.6em 1.6em;
 
     text-align: center;
 }
