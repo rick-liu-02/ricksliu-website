@@ -12,7 +12,7 @@ h1 {
 }
 
 p {
-    margin: 1em 0.5em 1em 1em;
+    margin: 1em 0.5em 0em 1em;
 
     line-height: 200%;
 }
@@ -31,7 +31,7 @@ img#main_photo {
 }
 
 h2.caption {
-    margin: 0.8em 1.6em 1.6em 0.8em;
+    margin: 0.8em 1.6em 0em 0.8em;
 
     text-align: center;
 }

@@ -55,9 +55,24 @@ img#background {
     top: -200px;
     left: -100px;
     width: 2000px;
-    height: 1500px;
+    height: 2000px;
 }
 
 img.icon {
     height: 2em;
+}
+
+.break {
+    clear: both;
+    padding-top: 2em;
+    margin: 0em 2em 0em;
+}
+
+.break:last-child {
+    padding-bottom: 2em;
+}
+
+hr {
+    margin: 0em;
+    color: #FFF;
 }

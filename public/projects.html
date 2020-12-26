@@ -12,7 +12,7 @@
   <link href="css/handheld/projects_handheld.css" rel="stylesheet" type="text/css" media="screen and (max-width: 800px)">
 </head>
 <body>
-  <img id="background" src="images/background.jpg" alt="">
+  <img id="background" src="media/background.jpg" alt="">
 
   <ul id="navigation">
     <li><a href="index.html">Home</a></li>
@@ -22,55 +22,116 @@
   </ul>
 
   <div id="content">
+    <div class="break"><hr></div>
+
     <h1>Projects</h1>
+
+    <div class="break"><hr></div>
 
     <div class="project">
       <div class="info left">
         <div>
-          <h2>Project 1</h2>
+          <h2>AnimeList Duel</h2>
+          <p class="highlights">HTML, CSS, JS, React, Node.js, MySQL</p>
           <p>
-            Text text text 1.
+            The premise is simple: Who has wasted more time watching Japanese cartoons?
+          </p>
+          <p>
+            The solution? A website that pits your MyAnimeList stats head-to-head with another user.
+          </p>
+          <p>
+            The frontend uses HTML, CSS and React, and the backend uses Node.js and MySQL.
+            Usernames are sent to the backend, which scrapes data from the associated MyAnimeList page.
+            This data is inserted into a database so future requests for the same user are sped up.
+            Since that stored data will slowly go out of date, requests for updated data can also be made.
+            The website cannot function without the Node.js backend, but it can function without the MySQL database.
           </p>
         </div>
       </div>
       <div class="media right">
-        <div>
-          <img src="images/rick_liu_about.jpg" alt="">
+        <div class="image">
+          <img src="media/animelist_duel.png" alt="">
         </div>
       </div>
     </div>
 
+    <div class="break"><hr></div>
+
     <div class="project">
       <div class="info right">
         <div>
-          <h2>Project 2</h2>
+          <h2>CamWow!</h2>
+          <p class="highlights">Python, Git, Agile Design</p>
           <p>
-            Text text text 2.
+            What if you could set up automated tasks for your computer based on hand gestures?
+          </p>
+          <p>
+            'CamWow!' was a first-year school project made in Python by a group of five.
+            A Raspberry Pi recognizes hand shapes and fingers and wirelessly sends data to a computer.
+            Based on what the computer gets, certain actions are automatically executed.
+            These actions can be opening computer files or opening links with optional login info (which was implemented with Selenium),
+            and the user can customize what each gesture will do with a GUI.
+          </p>
+          <p>
+            Of course, I only worked on 20% of this. Specifically, I was responsible for connecting the Pi to the computer,
+            implementing automatic file opening, saving actions to persistent files, and creating a GUI to edit said files.
+          </p>
+          <p>
+            Still confused? Unfortunately, the source code can never see the light of day, but check out the totally unbiased video showcasing the project.
           </p>
         </div>
       </div>
       <div class="media left">
         <div>
-          <img src="images/rick_liu_about.jpg" alt="">
+          <video controls><source src="media/camwow.mp4" type="video/mp4"></video>
         </div>
       </div>
     </div>
 
+    <div class="break"><hr></div>
+    
     <div class="project">
       <div class="info left">
         <div>
-          <h2>Project 3</h2>
+          <h2>SoluteTaire</h2>
+          <p class="highlights">Java, libGDX, OOP</p>
           <p>
-            Text text text 3.
+            Gonna be honest here, it's just Solitaire but Chemistry-themed.
+            For what it's worth though, it uses object-oriented design.
           </p>
         </div>
       </div>
       <div class="media right">
         <div>
-          <img src="images/rick_liu_about.jpg" alt="">
+          <video controls><source src="media/solutetaire.mp4" type="video/mp4"></video>
         </div>
       </div>
     </div>
+
+    <div class="break"><hr></div>
+
+    <h1>Minor Projects</h1>
+
+    <div class="break"><hr></div>
+
+    <div class="project">
+      <div class="info right">
+        <div>
+          <h2>ASCII Art Converter</h2>
+          <p class="highlights">Python</p>
+          <p>
+            Converts a video into ASCII art and outputs it into the console.
+          </p>
+        </div>
+      </div>
+      <div class="media left">
+        <div>
+          <video controls><source src="media/ascii_art_converter.mp4" type="video/mp4"></video>
+        </div>
+      </div>
+    </div>
+
+    <div class="break"><hr></div>
   </div>
 </body>
 </html>
