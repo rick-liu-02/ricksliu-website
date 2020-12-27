@@ -45,3 +45,7 @@ a.contact:hover {
 a.contact:active {
     background-color: #000 !important;
 }
+
+img.icon {
+    height: 1.5em;
+}

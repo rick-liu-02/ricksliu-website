@@ -9,10 +9,7 @@ h1 {
 
 .project {
     clear: both;
-}
-
-.project > div {
-    margin-top: 2em;
+    padding-top: 2em;
 }
 
 .info {
@@ -46,6 +43,7 @@ h1 {
 }
 
 h2 {
+    display: inline-block;
     font-size: 4em;
 }
 
@@ -64,7 +62,20 @@ p.highlights {
     width: 100%;
 }
 
-.media video {
-    display: block;
+.video {
+    position: relative;
+    padding-bottom: 56.25%;
+}
+
+iframe {
+    position: absolute;
+    top: 0em;
+    left: 0em;
     width: 100%;
+    height: 100%;
+    border-width: 0em;
+}
+
+img.icon {
+    margin-top: 1em;
 }

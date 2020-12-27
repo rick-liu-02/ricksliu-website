@@ -35,15 +35,45 @@ h2 {
     line-height: 150%;
 }
 
-#contacts {
+a.contact:hover {
+    background-color: #111B;
+}
+
+a.contact:active {
+    background-color: #000 !important;
+}
+
+#icons {
+    float: left;
     height: 2em;
     margin: 2em 0em 2em;
 }
 
-.contact {
+#icons a {
     margin-right: 2em;
 }
 
-.contact:last-child {
-    margin-right: 0em;
+#emails {
+    float: left;
+    margin: 2em 2em 2em 0em;
+}
+
+.email {
+    float: left;
+    clear: left;
+}
+
+#emails p {
+    font-size: 1em;
+    line-height: 1em;
+}
+
+.resume {
+    float: left;
+    margin: 2em 0em 2em;
+}
+
+.resume p {
+    font-size: 2em;
+    line-height: 1em;
 }
