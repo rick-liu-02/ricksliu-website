@@ -7,12 +7,15 @@ ul#navigation {
     background-color: #3337;
     z-index: 1;
 
+    font-size: 0em;
     list-style-type: none;
     text-align: center;
 }
 
 ul#navigation li {
     display: inline;
+
+    font-size: medium;
 }
 
 ul#navigation li a {

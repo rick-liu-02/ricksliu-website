@@ -1,1 +1,5 @@
 @import url("../navigation.css");
+
+ul#navigation li {
+    font-size: x-small;
+}
