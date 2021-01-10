@@ -32,19 +32,19 @@
       <div class="info left">
         <div>
           <h2>AnimeList Duel</h2>
-          <p class="highlights">HTML, CSS, JS, React, Node.js, MySQL</p>
+          <p class="highlights">HTML, CSS, React, Node.js, MySQL</p>
           <p>
-            The premise is simple: Who has wasted more time watching Japanese cartoons?
+            The premise was simple: Who's wasted more time watching Japanese cartoons?
           </p>
           <p>
-            The solution? A website that pits your MyAnimeList stats head-to-head with another user.
+            The solution? A website that pits your anime-watching stats head-to-head with another user by pulling data from the website MyAnimeList.net.
           </p>
           <p>
             The frontend uses HTML, CSS and React, and the backend uses Node.js and MySQL.
-            Usernames are sent to the backend, which scrapes data from various MyAnimeList pages.
-            This data is inserted into a database so future requests for the same user are sped up.
-            Since that stored data will slowly go out of date, requests for new data can be made.
-            The website cannot function without the Node.js backend, but it can function without the MySQL database.
+            The website uses a lot of parts over and over, so React components were very useful.
+            The usernames are sent to a backend that scrapes data from various MyAnimeList pages and sends it back.
+            This data is also stored in a MySQL database so future requests for the same user are much faster.
+            The website still functions without the database though, just less ideally.
           </p>
           
           <a href="https://github.com/rick-liu-02/animelist-duel" target="_blank" rel="noopener noreferrer">
@@ -65,20 +65,21 @@
       <div class="info right">
         <div>
           <h2>CamWow!</h2>
-          <p class="highlights">Python, Git, Agile Design</p>
+          <p class="highlights">Python</p>
           <p>
             What if you could set up automated tasks for your computer based on hand gestures?
           </p>
           <p>
-            'CamWow!' was a first-year school project made in Python by a group of five.
-            A Raspberry Pi recognizes hand shapes and fingers and wirelessly sends data to a computer.
-            Based on what the computer gets, certain actions are automatically executed.
-            These actions can be opening computer files or opening links with optional login info (which was implemented with Selenium),
-            and the user can customize what each gesture will do with a GUI.
+            'CamWow!' was a first-year school project made by a team of five.
+            A Raspberry Pi recognizes hand gestures, including various shapes and the number of fingers, and sends this data to a computer.
+            Based on what the computer gets, certain user-specified actions are automatically run.
+            These actions can be opening computer files or opening links with optional login info,
+            and a GUI makes customizing these things easier.
+            The entire thing was made in Python, the key libraries being OpenCV, Selenium and Tkinter.
           </p>
           <p>
-            Of course, I only worked on 20% of this. Specifically, I was responsible for connecting the Pi to the computer,
-            implementing automatic file opening, saving actions to persistent files, and creating a GUI to edit said files.
+            Of course, I only worked on 20% of this. Specifically, I was responsible for establishing communication between the Pi and the computer,
+            implementing the ability to customize and save tasks, and creating the GUI.
           </p>
           <p>
             Still confused? Unfortunately, the source code can never see the light of day, but check out the totally unbiased video showcasing the project.
@@ -98,10 +99,11 @@
       <div class="info left">
         <div>
           <h2>SoluteTaire</h2>
-          <p class="highlights">Java, libGDX, OOP</p>
+          <p class="highlights">Java</p>
           <p>
             I'm gonna be honest here, it's just Solitaire but Chemistry-themed.
             For what it's worth though, it's pretty object-oriented.
+            The game itself was built in a game framework for Java called libGDX.
           </p>
           <a href="https://github.com/rick-liu-02/solutetaire" target="_blank" rel="noopener noreferrer">
             <img class="icon" src="media/github.svg" alt="">
@@ -117,7 +119,7 @@
 
     <div class="break"><hr></div>
 
-    <h1>Small Projects</h1>
+    <h1>Very Small Projects</h1>
 
     <div class="break"><hr></div>
 
@@ -128,6 +130,8 @@
           <p class="highlights">Python</p>
           <p>
             Converts a video into ASCII art and outputs it into the console.
+            Ideally, it would actually generate a video file with sound, but I kind of abandoned it.
+            (The video here was manually captured with a screen recording.)
           </p>
           <a href="https://github.com/rick-liu-02/ascii-art-converter" target="_blank" rel="noopener noreferrer">
             <img class="icon" src="media/github.svg" alt="">
@@ -153,8 +157,9 @@
           </p>
           <p>
             Quite poorly, as it turns out.
-            The network was built with Keras, the high-level API for Tensorflow, and JikanPy is used to pull data from MyAnimeList.
-            It's around 0.9 out of 10 points off on average, but often lands way off. That's better than randomly guessing, I suppose...
+            The network was built with Keras, the high-level Tensorflow API.
+            To pull data from MyAnimeList, a community-made API called JikanPy was used.
+            On average, it's around 0.9 points off out of 10. I guess that's better than guessing randomly.
           </p>
           <a href="https://github.com/rick-liu-02/myanimelist-score-neural-network" target="_blank" rel="noopener noreferrer">
             <img class="icon" src="media/github.svg" alt="">
