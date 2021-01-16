@@ -52,10 +52,12 @@ a {
 
 img#background {
     position: fixed;
-    top: -200px;
-    left: -100px;
-    width: 2000px;
-    height: 2000px;
+    top: 0%;
+    left: 0%;
+    width: 160%;
+    height: auto;
+    min-height: 100%;
+    margin-left: -8%;
 }
 
 img.icon {
